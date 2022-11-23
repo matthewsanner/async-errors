@@ -6,8 +6,6 @@ const methodOverride = require('method-override');
 const AppError = require('./AppError');
 
 const Product = require('./models/product');
-// where did this come from?
-// const { nextTick } = require('process');
 
 mongoose.connect('mongodb://localhost:27017/farmStand2')
     .then(() => {
